@@ -132,6 +132,40 @@ button:hover {
   border: 1px solid #bee5eb;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #e0e0e0;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #1a237e;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.participants-list {
+  list-style-position: inside;
+  margin-left: 10px;
+}
+
+.participants-list li {
+  padding: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.participants-list li:before {
+  content: "✓ ";
+  color: #4caf50;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
 .hidden {
   display: none;
 }
